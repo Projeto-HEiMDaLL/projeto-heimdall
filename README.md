@@ -26,9 +26,13 @@ Minha principal utilidade é permitir que você controle dispositivos da sua cas
 Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precisar pra fazer a mágica acontecer:
 
 (IMPORTANTE: TERMINE DE LER AS INSTRUÇÕES ANTES DE FAZER QUALQUER COISA! :raised_hand:)
-	
+
+- Internet em casa (com roteador, não vale usar Wi-Fi do vizinho :sweat_smile:)
+	- IMPORTANTÍSSIMO: verifique se seu roteador permite que você faça configurações de acesso externo, como o "Port Forwarding". Alguns modelos não têm essa opção, e ela é necessária pro meu melhor funcionamento. Este link (https://suporte.topdata.com.br/suporte/como-configurar-o-redirecionamento-de-porta-em-um-modem-ou-roteador) te dá mais informações sobre como verificar isso e como ativar, mas lembre-se que é meio diferente pra cada marca de roteador, nesse caso, talvez você deve olhar também o site da fabricante. 
+
 - Um Raspberry Pi 3 (não conhece? aqui vão algumas informações sobre ele: https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921; e este é o site oficial - sim, tá em inglês: https://www.raspberrypi.org)
 	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
+	- MUITO CUIDADO AO MANUSEAR ESSA PLAQUINHA! Sempre pegue o Pi pelas bordas, em hipótese alguma pegue no 'meio' da placa, não encoste nos circuitos e muito menos nos pinos. De preferência, coloque seu 'Rasp' dentro de uma case, aquela caixinha, pra facilitar o transporte.
 
 - Um cartão de memória para instalar um sistema operacional e o restante dos softwares (acho que uns 8 GB de memória está bom)
 	- Esse sistema operacional deve ser o Raspbian Stretch, que você pode baixar aqui: link
