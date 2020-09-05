@@ -24,6 +24,8 @@ Você muito provavelmente me encontrou pesquisando no Google ou no GitHub mesmo,
 Minha principal utilidade é permitir que você controle dispositivos da sua casa - no momento, somente aqueles que usem tecnologia infravermelho - apenas com sua voz, ou usando seu celular. Assim, você terá mais comodidade e conforto no seu lar. Futuramente, meus criadores pretendem melhorar minhas capacidades, englobando mais dispositivos e ações além do seu imaginário... Hehe :smiling_imp:
 
 Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precisar pra fazer a mágica acontecer:
+
+(IMPORTANTE: TERMINE DE LER AS INSTRUÇÕES ANTES DE FAZER QUALQUER COISA! :raised_hand:)
 	
 - Um Raspberry Pi 3 (não conhece? aqui vão algumas informações sobre ele: https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921; e este é o site oficial - sim, tá em inglês: https://www.raspberrypi.org)
 	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
