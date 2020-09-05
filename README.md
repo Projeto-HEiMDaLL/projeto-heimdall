@@ -26,7 +26,7 @@ Minha principal utilidade é permitir que você controle dispositivos da sua cas
 Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precisar pra fazer a mágica acontecer:
 	
 - Um Raspberry Pi 3 (não conhece? aqui vão algumas informações sobre ele: https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921; e este é o site oficial - sim, tá em inglês: https://www.raspberrypi.org)
-	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :)
+	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
 
 - Um cartão de memória para instalar um sistema operacional e o restante dos softwares (acho que uns 8 GB de memória está bom)
 	- Esse sistema operacional deve ser o Raspbian Stretch, que você pode baixar aqui: link
