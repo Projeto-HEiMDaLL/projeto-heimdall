@@ -48,5 +48,5 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- uma resistência
 	- um transistor
 
-E aí, é só seguir o esquema e colocar tudo certinho no protoboard. LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
+	E aí, é só seguir o esquema e colocar tudo certinho no protoboard. LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um 		esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
 
