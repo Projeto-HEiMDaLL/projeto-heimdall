@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Fico feliz que tenha encontrado este humilde projeto, fique a vontade pra me explorar e testar, caso tenha alguma dúvida, eu serei seu guia! 
+Fico feliz que tenha encontrado este humilde projeto, fique a vontade pra me explorar e testar, a partir daqui, eu serei seu guia! 
 
 Mas calma aí, o que sou eu?
 
