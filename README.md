@@ -35,7 +35,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 - Um Raspberry Pi 3 (não conhece? aqui vão algumas informações sobre ele: https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921; e este é o site oficial - sim, tá em inglês: https://www.raspberrypi.org)
 	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
 	- MUITO CUIDADO AO MANUSEAR ESSA PLAQUINHA! Sempre pegue o Pi pelas bordas, em hipótese alguma pegue no 'meio' da placa, não encoste nos circuitos e muito menos nos pinos. De preferência, coloque seu 'Rasp' (obs.: Rasp = Raspberry Pi :wink:) dentro de uma case, aquela caixinha, pra facilitar o transporte.
-	- É preferível que você adquira o kit completo do Raspberry Pi, caso contrário, terá que comprar também uma fonte """5 volts e 3 ampéres""" e um cabo HDMI para ligar o Rasp na sua TV e exibir sua imagem.
+	- É preferível que você adquira o kit completo do Raspberry Pi, caso contrário, terá que comprar também uma fonte """5 volts e 3 ampéres""", um cabo HDMI para ligar o Rasp na sua TV e exibir sua imagem, um teclado e um mouse com conexões USB.
 
 - Um cartão de memória para instalar um sistema operacional e o restante dos softwares (acho que uns 8 GB de memória está bom)
 	- Esse sistema operacional deve ser o Raspbian Stretch, que você pode baixar aqui: link
@@ -54,6 +54,10 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	E aí, é só seguir o esquema e colocar tudo certinho no protoboard. Não ligue os jumpers do board ao Raspberry ainda, deixe para fazer isso depois dos próximos passos.
 	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
 
-- Após montar o esquema no protoboard, ligue o Rasp (mas não ligue o board no Rasp ainda, até porque o dispositivo precisa estar DESLIGADO pra isso!), e clone os meus repositórios nele pra executar os programas que formam meu sisteminha.
-	- Peraí, o que seria 'clonar'? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, git
+- Após montar o esquema no protoboard, ligue o Rasp (mas não ligue o protoboard no Rasp ainda, até porque o dispositivo precisa estar DESLIGADO pra isso!), e clone os meus repositórios nele pra executar os programas que formam meu sisteminha.
+	- Peraí, o que seria clonar? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, pra utilizar seus recursos localmente.
+	- E como fazer isso? Bom, muito simples. Estando com o Rasp ligado, você só tem que dar o comando **git clone https://github.com/Projeto-HEiMDaLL/projeto-heimdall.git** na pasta de sua preferência, e então execute os scripts baixados. Entendeu? 
+
+	...talvez não :sweat_smile:
+	- Relaxa, o vídeo aqui embaixo mostra na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
 	
