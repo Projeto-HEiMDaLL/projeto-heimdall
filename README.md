@@ -19,7 +19,7 @@ Fico feliz que tenha encontrado este humilde projeto, fique a vontade pra me exp
 
 Mas calma aí, o que sou eu?
 
-Você muito provavelmente me encontrou pesquisando no Google ou no GitHub mesmo, sobre automação residencial, ou caiu aqui por engano pesquisando o filme do Thor. De qualquer forma, bem-vindo. Eu sou o HEiMDaLL, seu novo assistente virtual. Meu nome é esse em homenagem ao Deus Nórdico das Pontes, pois é isso que eu quero ser pra você: uma ponte entre você e a tecnologia presente na sua casa.
+Você muito provavelmente me encontrou pesquisando no Google ou no GitHub mesmo, sobre automação residencial, ou caiu aqui por engano pesquisando o filme do Thor :muscle:. De qualquer forma, bem-vindo. Eu sou o HEiMDaLL, seu novo assistente virtual. Meu nome é esse em homenagem ao Deus Nórdico das Pontes, pois é isso que eu quero ser pra você: uma ponte entre você e a tecnologia presente na sua casa.
 
 Minha principal utilidade é permitir que você controle dispositivos da sua casa - no momento, somente aqueles que usem tecnologia infravermelho - apenas com sua voz, ou usando seu celular. Assim, você terá mais comodidade e conforto no seu lar. Futuramente, meus criadores pretendem melhorar minhas capacidades, englobando mais dispositivos e ações além do seu imaginário... Hehe :smiling_imp:
 
