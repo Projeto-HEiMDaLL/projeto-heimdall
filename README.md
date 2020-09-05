@@ -58,6 +58,6 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- Peraí, o que seria clonar? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, pra utilizar seus recursos localmente.
 	- E como fazer isso? Bom, muito simples. Estando com o Rasp ligado, você só tem que dar o comando **git clone https://github.com/Projeto-HEiMDaLL/projeto-heimdall.git** na pasta de sua preferência, e então execute os scripts baixados. Entendeu? 
 
-	...talvez não :sweat_smile:
+		...talvez não :sweat_smile:
 	- Relaxa, o vídeo aqui embaixo mostra na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
 	
