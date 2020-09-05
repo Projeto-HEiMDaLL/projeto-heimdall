@@ -30,6 +30,6 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 - Um cartão de memória para instalar um sistema operacional e o restante dos softwares (acho que uns 8 GB de memória está bom)
 	- Esse sistema operacional deve ser o Raspbian Stretch, que você pode baixar aqui: link
-	- Caso você nunca tenha formatado um cartão de memória pra instalar um sistema operacional, aqui vai um vídeo explicando muito bem: https://youtu.be/ZAs0MGXotcY
+	- Caso você nunca tenha formatado um cartão de memória pra instalar um sistema operacional, aqui vai um vídeo explicando muito bem: https://youtu.be/ZAs0MGXotcY.
 	Lembrando que você pode seguir o passo-a-passo do vídeo, mas a versão do Raspbian deve ser o Stretch! O vídeo apresenta o Raspbian Buster, e eu não funcionei muito bem nele...
 	- Após terminar a instalação, o Raspberry vai te pedir pra permitir algumas atualizações... pois bem, NÃO ATUALIZE! Faça como o professor do vídeo e dê SKIP. Primeiro porque essa atualização demora um baita tempo, dependendo da sua conexão com a internet; segundo e mais importante, porque a atualização vai mudar a versão do kernel do Raspbian, o que provavelmente vai causar alguns problemas de compatibilidade com os meus programas. Então, NÃO ATUALIZE, OU EU MORRO! :fearful:
