@@ -33,6 +33,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 - Um Raspberry Pi 3 (não conhece? aqui vão algumas informações sobre ele: https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921; e este é o site oficial - sim, tá em inglês: https://www.raspberrypi.org)
 	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
 	- MUITO CUIDADO AO MANUSEAR ESSA PLAQUINHA! Sempre pegue o Pi pelas bordas, em hipótese alguma pegue no 'meio' da placa, não encoste nos circuitos e muito menos nos pinos. De preferência, coloque seu 'Rasp' dentro de uma case, aquela caixinha, pra facilitar o transporte.
+	- É preferível que você adquira o kit completo do Raspberry Pi, caso contrário, terá que comprar também uma fonte """5 volts e 3 ampéres""" e um cabo HDMI para ligar o Rasp na sua TV e exibir sua imagem.
 
 - Um cartão de memória para instalar um sistema operacional e o restante dos softwares (acho que uns 8 GB de memória está bom)
 	- Esse sistema operacional deve ser o Raspbian Stretch, que você pode baixar aqui: link
@@ -48,5 +49,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- uma resistência
 	- um transistor
 
-	E aí, é só seguir o esquema e colocar tudo certinho no protoboard. LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um 		esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
+	E aí, é só seguir o esquema e colocar tudo certinho no protoboard. Não ligue os jumpers do board ao Raspberry ainda, deixe para fazer isso depois dos próximos passos.
+	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
 
+- Após montar o esquema
