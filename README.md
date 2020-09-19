@@ -36,6 +36,10 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
 	- MUITO CUIDADO AO MANUSEAR ESSA PLAQUINHA! Sempre pegue o Pi pelas bordas, em hipótese alguma pegue no 'meio' da placa, não encoste nos circuitos e muito menos nos pinos. De preferência, coloque seu 'Rasp' (obs.: Rasp = Raspberry Pi :wink:) dentro de uma case, aquela caixinha, pra facilitar o transporte.
 	- É preferível que você adquira o kit completo do Raspberry Pi, caso contrário, terá que comprar também uma fonte 5 volts e de 1 à 3 ampéres (NÃO USE FONTES 'TURBO'!), um cabo HDMI para ligar o Rasp na sua TV e exibir sua imagem, um teclado e um mouse com conexões USB.
+	
+- Um microfone USB e uma caixa de som USB (isso você conhece, né?! Mais tranquilo, hehe)
+
+- Uma TV (muito provavelmente você já tem uma :sweat_smile: de preferência com entrada HDMI)
 
 - Um cartão de memória para instalar um sistema operacional e o restante dos softwares (acho que uns 8 GB de memória está bom)
 	- Esse sistema operacional deve ser o Raspbian Stretch, que você pode baixar aqui: http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-09-08/2017-09-07-raspbian-stretch.zip
@@ -60,4 +64,53 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 		...talvez não :sweat_smile:
 	- Relaxa, o vídeo aqui embaixo mostra na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
+		link
+- Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho do meu canal pra te ajudar:
+	link
+	- Abaixo, os textos mostrados no vídeo:
+	
+		#ARQUIVO /etc/asound.conf
+		
+		pcm.dsnooper {
+			type dsnoop
+			ipc_key B16357492
+			ipc_key_add_uid 0
+			ipc_perm 0666
+			slave {
+				pcm "hw:1,0"
+				channels 1
+			}
+		}
+
+		pcm.!default {
+			type asym
+			playback.pcm {
+				type plug
+				slave.pcm "hw:0,0"
+			}
+			capture.pcm {
+				type plug
+				slave.pcm "dsnooper"
+			}
+		}
+
+		#ARQUIVO /home/pi/.asound.rc
+		
+		pcm.!default {
+			type asym
+			capture.pcm "mic"
+			playback.pcm "speaker"
+		}
+		pcm.mic {
+			type plug
+			slave{
+				pcm"hw:1,0"
+			}
+		}
+		pcm.speaker{
+			type plug
+			slave{
+				pcm"hw:0,0"
+			}
+		}
 	
