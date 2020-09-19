@@ -69,49 +69,49 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	link
 	- Abaixo, os textos mostrados no vídeo:
 	
-	#ARQUIVO /etc/asound.conf
+		#ARQUIVO /etc/asound.conf
 
-	pcm.dsnooper {
-		type dsnoop
-		ipc_key B16357492
-		ipc_key_add_uid 0
-		ipc_perm 0666
-		slave {
-			pcm "hw:1,0"
-			channels 1
+		pcm.dsnooper {
+			type dsnoop
+			ipc_key B16357492
+			ipc_key_add_uid 0
+			ipc_perm 0666
+			slave {
+				pcm "hw:1,0"
+				channels 1
+			}
 		}
-	}
 
-	pcm.!default {
-		type asym
-		playback.pcm {
+		pcm.!default {
+			type asym
+			playback.pcm {
+				type plug
+				slave.pcm "hw:0,0"
+			}
+			capture.pcm {
+				type plug
+				slave.pcm "dsnooper"
+			}
+		}
+
+		#ARQUIVO /home/pi/.asound.rc
+
+		pcm.!default {
+			type asym
+			capture.pcm "mic"
+			playback.pcm "speaker"
+		}
+		pcm.mic {
 			type plug
-			slave.pcm "hw:0,0"
+			slave{
+				pcm"hw:1,0"
+			}
 		}
-		capture.pcm {
+		pcm.speaker{
 			type plug
-			slave.pcm "dsnooper"
+			slave{
+				pcm"hw:0,0"
+			}
 		}
-	}
-
-	#ARQUIVO /home/pi/.asound.rc
-
-	pcm.!default {
-		type asym
-		capture.pcm "mic"
-		playback.pcm "speaker"
-	}
-	pcm.mic {
-		type plug
-		slave{
-			pcm"hw:1,0"
-		}
-	}
-	pcm.speaker{
-		type plug
-		slave{
-			pcm"hw:0,0"
-		}
-	}
 		
-	(provavelmente o GitHub cortou os espaços do texto, então tecle "Enter" pra quebrar as linhas onde o vídeo mostrar)
+	(provavelmente o GitHub tirou as quebras de linha do texto, então tecle "Enter" pra quebrar as linhas onde o vídeo mostrar, certo?!)
