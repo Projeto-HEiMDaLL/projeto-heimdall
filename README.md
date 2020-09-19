@@ -64,9 +64,9 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 		...talvez não :sweat_smile:
 	- Relaxa, o vídeo aqui embaixo mostra na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
-		link
+		- link
 - Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho do meu canal pra te ajudar:
-	link
+	- link
 	- Abaixo, os textos mostrados no vídeo:
 	
 		#ARQUIVO /etc/asound.conf
