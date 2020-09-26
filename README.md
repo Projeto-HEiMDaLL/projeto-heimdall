@@ -122,8 +122,8 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 		google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
 	      --scope https://www.googleapis.com/auth/gcm \
-	      --save --headless --client-secrets /var/www/html/projeto_assistant/NOME_DA_SUA_CHAVE.json
+	      --save --headless --client-secrets /var/www/html/projeto_assistant/DIGITE_AQUI_O_NOME_DA_SUA_CHAVE.json
 
-		(cole tudo de uma vez, taokei?)
+		(cole as três linhas de uma vez, taokei?)
 	
 	- Se tu fez tudo certinho, o Terminal vai te responder com um link. Copia ele pro navegador, que vai te levar até uma página do Google. Nela, você só diz que autoriza o uso da chave e blábláblá, em seguida, ela vai te mandar um código cheio de letra e número. Só copia ele e cola no Terminal onde você tá executando o comando acima. Shazam.
