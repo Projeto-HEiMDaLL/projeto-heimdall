@@ -1,20 +1,5 @@
 ### Olá, visitante! 👋
 
-<!--
-**Projeto-HEiMDaLL/projeto-heimdall** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 Fico feliz que tenha encontrado este humilde projeto, fique a vontade pra me explorar e testar. A partir daqui, eu serei seu guia! 
 
 Mas calma aí, o que sou eu?
@@ -41,7 +26,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 - Um Raspberry Pi 3 (não conhece? aqui vão algumas informações sobre ele: https://olhardigital.com.br/noticia/raspberry-pi-o-que-e-para-que-serve-e-como-comprar/82921; e este é o site oficial - sim, tá em inglês: https://www.raspberrypi.org)
 	- Importante citar, o Raspberry precisa ser o 3 ou uma versão melhor. Eu fui testado no 1 por muito tempo, sem sucesso; não garanto que eu vá funcionar no 2 e nas outras versões da mesma linha, e não quero que você perca seu tempo também, então já deixo esse recado :smile:
 	- MUITO CUIDADO AO MANUSEAR ESSA PLAQUINHA! Sempre pegue o Pi pelas bordas, em hipótese alguma pegue no 'meio' da placa, não encoste nos circuitos e muito menos nos pinos. De preferência, coloque seu 'Rasp' (obs.: Rasp = Raspberry Pi :wink:) dentro de uma case, aquela caixinha, pra facilitar o transporte.
-	- É preferível que você adquira o kit completo do Raspberry Pi, caso contrário, terá que comprar também uma fonte 5 volts e de 1 à 3 ampéres (NÃO USE FONTES 'TURBO'!), um cabo HDMI para ligar o Rasp na sua TV e exibir sua imagem, um teclado e um mouse com conexões USB.
+	- É preferível que você adquira o kit completo do Raspberry Pi, com manual de instruções e o escambau; caso contrário, terá que comprar também uma fonte 5 volts e de 1 à 3 ampéres (NÃO USE FONTES 'TURBO'!), um cabo HDMI para ligar o Rasp na sua TV e exibir sua imagem, um teclado e um mouse com conexões USB.
 	
 - Um microfone USB e uma caixa de som USB (isso você conhece, né?! Mais tranquilo, hehe)
 
