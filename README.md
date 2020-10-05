@@ -50,7 +50,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
 
 	EIS AQUI OS ESQUEMAS:
-		- esquemas
+		- ESQUEMAS
 
 - Após montar o esquema no protoboard, ligue o Rasp (mas não ligue o protoboard no Rasp ainda, até porque o dispositivo precisa estar DESLIGADO pra isso!), e clone os meus repositórios nele pra executar os programas que formam meu sisteminha.
 	- Peraí, o que seria clonar? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, pra utilizar seus recursos localmente.
@@ -60,7 +60,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- Relaxa, o vídeo aqui embaixo mostra na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
 		- link videos clonar e executar script (clonar ja existe)
 - Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho do meu canal pra te ajudar:
-	- link video perifericos (ainda n existe)
+	- VIDEO PERIFERICOS (ainda n existe)
 	- Abaixo, os textos mostrados no vídeo:
 	
 		#ARQUIVO /etc/asound.conf
@@ -110,7 +110,17 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 		
 	(provavelmente o GitHub tirou as quebras de linha do texto, então tecle "Enter" pra quebrar as linhas onde o vídeo mostrar, certo?!)
 	
-	-ESPAÇO PARA MAIS COISA- VIDEO DO APP
+- A partir daqui, você já pode configurar o IP estático no seu Rasp (você vai deixar seu Rasp com um IP fixo dentro da sua rede. Não sabe como? vídeo abaixo) e o redirecionamento de portas no seu roteador.
+
+	-VIDEO DO IP ESTATICO
+	
+- E então, a criação de um "endereço textual" (uma URL mesmo) pro seu Rasp, e a instalação do serviço DuckDNS na sua plaquinha. Veja:
+
+	-VIDEO DUCKDNS (ainda n existe mas ja tem roteiro)
+	
+- Neste ponto, você já pode instalar meu aplicativozinho configurador no seu smartphone Android, que você baixa (explicar aqui como baixa). Mais um vídeo aqui, esse tá explicando como se utiliza o app, se liga:
+	
+	-VIDEO DO APP (eu tenho que fazer)
 	
 - Bom, depois de subir sua chave, o aplicativo vai te mostrar o nome do arquivo recebido e me informar que eu devo instalar e configurar o Google Assistant em mim. Assim que o aplicativo informar que a configuração deu certo, você vai lá no nosso querido Terminal e executa este comando aqui:
 
