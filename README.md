@@ -50,15 +50,16 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
 
 	EIS AQUI OS ESQUEMAS:
-		- ESQUEMAS
+	- ESQUEMAS
 
 - Após montar o esquema no protoboard, ligue o Rasp (mas não ligue o protoboard no Rasp ainda, até porque o dispositivo precisa estar DESLIGADO pra isso!), e clone os meus repositórios nele pra executar os programas que formam meu sisteminha.
 	- Peraí, o que seria clonar? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, pra utilizar seus recursos localmente.
 	- E como fazer isso? Bom, muito simples. Estando com o Rasp ligado, você só tem que dar o comando **git clone https://github.com/Projeto-HEiMDaLL/projeto-heimdall.git** na pasta /var/www/html, e então execute os scripts baixados. Entendeu? 
 
 		...talvez não :sweat_smile:
-	- Relaxa, o vídeo aqui embaixo mostra na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
-		- link videos clonar e executar script (clonar ja existe)
+	- Relaxa, os vídeos aqui embaixo mostram na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
+		- VIDEOS DE COMO CLONAR E COMO EXECUTAR SCRIPT (CLONAR JA EXISTE)
+
 - Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho do meu canal pra te ajudar:
 	- VIDEO PERIFERICOS (ainda n existe)
 	- Abaixo, os textos mostrados no vídeo:
