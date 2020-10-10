@@ -123,7 +123,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	
 	-VIDEO DO APP (eu tenho que fazer)
 	
-- Bom, depois de subir sua chave, o aplicativo vai te mostrar o nome do arquivo recebido e me informar que eu devo instalar e configurar o Google Assistant em mim. Assim que o aplicativo informar que a configuração deu certo, você vai lá no nosso querido Terminal e executa este comando aqui:
+- Bom, depois de subir sua chave, o aplicativo vai te mostrar o nome do arquivo recebido e te informar que você deve continuar a configurar o Google Assistant em mim, executando mais um script no nosso querido Terminal (caso não lembre como, ali em cima tem o vídeo hehe). O nome do script da vez é *instalador_assistant.sh*. Assim que o script informar que a configuração deu certo, você vai executar este comando aqui:
 
 		google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
 	      --scope https://www.googleapis.com/auth/gcm \
