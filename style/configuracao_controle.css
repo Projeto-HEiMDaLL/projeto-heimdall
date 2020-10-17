@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(to bottom, #cccc00 0%, #33cc33 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+[type=radio] + img {
+    cursor: pointer;
+}
+[type=radio]:checked + img {
+    outline: 2px solid lightgreen;
+}
+
+select{
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 37pt;
+}
+p{
+    color: white;
+    font-size: 14pt;
+}
+img{
+    width: 37px;
+}
+input{
+    font-size: 13pt;
+}
+#seletor{
+    display: none;
+}
+#arquivo {
+    font-size: 16pt;
+    /* padding: 12px; */
+    /* margin: 27px; */
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: lightgreen;
+  }
+#arquivo:active{
+    background-color: #33cc33;
+}
+#enviar{
+    font-size: 15pt;
+    padding: 5px;
+    /* margin: 27px; */
+    border-radius: 50px;
+    border: none;
+}
+#enviar:active{
+    background-color: #33cc33;
+}
+#limpar{
+    font-size: 15pt;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+}
+#limpar:active{
+    background-color: #33cc33;
+}
+
+#menu{
+    margin-left: 50px;
+}

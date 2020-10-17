@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(to bottom, #cccc00 0%, #33cc33 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 144px;
+}
+h1{
+    color: white;
+    font-size: 37pt;
+}
+p{
+    color: white;
+    font-size: 20pt;
+}
+input{
+    font-size: 15pt;
+}
+#seletor{
+    display: none;
+}
+#arquivo {
+    font-size: 16pt;
+    padding: 12px;
+    margin: 27px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: lightgreen;
+  }
+#arquivo:active{
+    background-color: #33cc33;
+}
+#enviar{
+    font-size: 22pt;
+    padding: 12px;
+    margin: 27px;
+    border-radius: 50px;
+    border: none;
+}
+#enviar:active{
+    background-color: #33cc33;
+}
