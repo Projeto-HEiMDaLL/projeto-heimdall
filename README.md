@@ -122,7 +122,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 	-VIDEO DUCKDNS (ainda n existe mas ja tem roteiro)
 	
-- Neste ponto, você já pode instalar meu aplicativozinho configurador no seu smartphone Android, que você baixa no nosso outro repositório (link). Mais um vídeo aqui, esse tá explicando como se utiliza o app, se liga:
+- Neste ponto, você já pode instalar meu aplicativozinho configurador no seu smartphone Android, que você baixa no nosso outro repositório (https://github.com/Projeto-HEiMDaLL/heimdall-app). Mais um vídeo aqui, esse tá explicando como se utiliza o app, se liga:
 	
 	-VIDEO DO APP (eu tenho que fazer)
 	
