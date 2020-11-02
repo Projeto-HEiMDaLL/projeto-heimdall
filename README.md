@@ -41,13 +41,14 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 - Peças. O meu sistema precisa de algumas peças pra funcionar, porque nativamente eu não tenho um emissor e um receptor infravermelho, beleza? Então, pra fazer isso, você precisa montar um esquema em cima de uma protoboard. Mas aí você se pergunta, como irei fazer isso? Alguém irá me salvar? Sim, não "priemos cânicos"! Eu estou aqui e meus criadores também, eles fizeram um desenho do esquema pra você não ficar perdido. As peças que você vai precisar, você pode encontrar online no FilipeFlop (https://www.filipeflop.com/categoria/componentes-eletronicos), ou em qualquer loja de eletrônicos da sua cidade, as peças são:
 	- um protoboard (a placa de prototipação)
 	- um emissor infravermelho (duas pernas)
-	- um receptor infravermelho (três pernas)
-	- alguns jumpers (dez jumpers se não me engano)
-	- uma resistência
-	- um transistor
+	- um receptor/sensor infravermelho (três pernas)
+    	- dez jumpers, sendo 4 macho/macho e seis femea/macho
+    	- duas resistências, uma de 10K 5.0% Ohms e outra de 27 Ohms 5.0%.
+    	- um transistor npn de ...
 
 	E aí, é só seguir o esquema e colocar tudo certinho no protoboard. Não ligue os jumpers do board ao Raspberry ainda, deixe para fazer isso depois dos próximos passos.
-	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
+	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e aqui um textinho sobre onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
+    	Ligados na GPIO do Raspberry Pi estão dois positivo, um de 3,3 volts na posição 1 (3V3 em azul) ilustrados com os jumpers laranjas e um de 5 volts na posição 2 (5V em vermelho) ilustrados com os jumpers vermelhos) e dois negativos nas posições 6 (ground, GND) e na posição 9 (ground, GND) ilustrados com os jumpers pretos, para receber os dados da protoboard foi conectado mais jumpers, ilustrados na figura na cor azuis, na posição 15 (GPIO 22) e na posição 16 (GPIO 23), todas as posições de ligação são mostradas na imagem embaixo do esquema.
 
 	EIS AQUI OS ESQUEMAS:
 	![Esquema eletrônico](https://github.com/Projeto-HEiMDaLL/projeto-heimdall/blob/master/esquema%20heimdall.png?raw=true)
