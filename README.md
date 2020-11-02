@@ -50,7 +50,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	LEMBRE-SE, TOME CUIDADO COM OS CABOS DE ENERGIA (POSITIVO E NEGATIVO). Ahh, e você terá também um esquema de onde colocar os jumpers no Raspberry Pi. :heavy_check_mark:
 
 	EIS AQUI OS ESQUEMAS:
-	![Esquema eletrônico](https://github.com/Projeto-HEiMDaLL/projeto-heimdall/blob/master/esquema heimdall.png?raw=true)
+	![Esquema eletrônico](https://github.com/Projeto-HEiMDaLL/projeto-heimdall/blob/master/esquema%20heimdall.png?raw=true)
 
 - Após montar o esquema no protoboard, ligue o Rasp (mas não ligue o protoboard no Rasp ainda, até porque o dispositivo precisa estar DESLIGADO pra isso!), e clone os meus repositórios nele pra executar os programas que formam meu sisteminha.
 	- Peraí, o que seria clonar? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, pra utilizar seus recursos localmente.
