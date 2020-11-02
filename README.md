@@ -42,7 +42,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- um protoboard (a placa de prototipação)
 	- um emissor infravermelho (duas pernas)
 	- um receptor/sensor infravermelho (três pernas)
-	- dez jumpers, sendo 4 macho/macho e seis femea/macho
+	- dez jumpers, sendo 4 macho/macho e seis fêmea/macho
 	- duas resistências, uma de 10K 5.0% Ohms e outra de 27 Ohms 5.0%.
 	- um transistor npn de ...
 
