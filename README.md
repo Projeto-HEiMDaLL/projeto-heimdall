@@ -62,7 +62,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 		...talvez não :sweat_smile:
 	- Relaxa, os vídeos aqui embaixo mostram na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
 		- VIDEOS DE COMO CLONAR E COMO EXECUTAR SCRIPT (CLONAR JA EXISTE)
-		[![Vídeo de como clonar](https://i9.ytimg.com/vi/yGOA5C3trws/mq2.jpg)](https://www.youtube.com/watch?v=yGOA5C3trws)
+		[![Vídeo de como clonar](http://i3.ytimg.com/vi/yGOA5C3trws/hqdefault.jpg)](https://www.youtube.com/watch?v=yGOA5C3trws)
 
 - Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho do meu canal pra te ajudar:
 	- VIDEO PERIFERICOS (ainda n existe)
