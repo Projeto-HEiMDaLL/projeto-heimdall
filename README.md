@@ -117,7 +117,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	
 - A partir daqui, você já pode configurar o IP estático no seu Rasp (você vai deixar seu Rasp com um IP fixo dentro da sua rede. Não sabe como? vídeo abaixo) e o redirecionamento de portas no seu roteador.
 
-	-VIDEO DO IP ESTATICO
+	[![Vídeo de IP estático](http://i3.ytimg.com/vi/lviB8Ip0jBk/hqdefault.jpg)](https://www.youtube.com/watch?v=lviB8Ip0jBk)
 	
 - E então, a criação de um "endereço textual" (uma URL mesmo) pro seu Rasp, e a instalação do serviço DuckDNS na sua plaquinha. Veja:
 
