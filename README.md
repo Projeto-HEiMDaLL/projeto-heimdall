@@ -139,7 +139,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 		google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
 	      --scope https://www.googleapis.com/auth/gcm \
-	      --save --headless --client-secrets /var/www/html/projeto_assistant/DIGITE_AQUI_O_NOME_DA_SUA_CHAVE.json
+	      --save --headless --client-secrets /var/www/html/projeto-heimdall/uploads/DIGITE_AQUI_O_NOME_DA_SUA_CHAVE.json
 
 		(cole as três linhas de uma vez, taokei?)
 	
