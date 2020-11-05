@@ -54,6 +54,9 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 
 	EIS AQUI O ESQUEMA:
 	![Esquema eletrônico](https://github.com/Projeto-HEiMDaLL/projeto-heimdall/blob/master/esquema%20heimdall.png?raw=true)
+	
+	AQUI, A GPIO:
+	![GPIO](https://github.com/Projeto-HEiMDaLL/projeto-heimdall/blob/master/esquema%20heimdall.png?raw=true)
 
 - Após montar o esquema no protoboard, ligue o Rasp (mas não ligue o protoboard no Rasp ainda, até porque o dispositivo precisa estar DESLIGADO pra isso!), e clone os meus repositórios nele pra executar os programas que formam meu sisteminha.
 	- Peraí, o que seria clonar? Aqui no GitHub, vocês têm a opção de baixar um projeto em seus computadores, pra utilizar seus recursos localmente.
