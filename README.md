@@ -60,15 +60,21 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- E como fazer isso? Bom, muito simples. Estando com o Rasp ligado, você só tem que dar o comando **git clone https://github.com/Projeto-HEiMDaLL/projeto-heimdall.git** na pasta /var/www/html, e então execute os scripts baixados. Entendeu? 
 
 		...talvez não :sweat_smile:
-	- Relaxa, os vídeos aqui embaixo mostram na prática e com detalhes, o que você precisa fazer. Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
-		- VIDEOS DE COMO CLONAR E COMO EXECUTAR SCRIPT (CLONAR JA EXISTE)
-		[![Vídeo de como clonar](http://i3.ytimg.com/vi/yGOA5C3trws/hqdefault.jpg)](https://www.youtube.com/watch?v=yGOA5C3trws)
-
-- Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho do meu canal pra te ajudar:
-	- VIDEO PERIFERICOS (ainda n existe)
-	- Abaixo, os textos mostrados no vídeo:
+	- Relaxa, os vídeos aqui embaixo mostram na prática e com detalhes, o que você precisa fazer (clique na imagem para abrir o vídeo no YouTube). Pegue seu cafezinho :coffee: e assista com atenção: :point_down:
 	
-		#ARQUIVO /etc/asound.conf
+	(Uma pequena observação: muito provavelmente a pasta /var/www/html ainda não exista quando você assistir esse vídeo. Por isso, crie-a assim: abra o Terminal - o primeiro vídeo mostra como fazer isso logo no início, confere lá; você estará logado como o usuário *pi@raspberrypi*. Digite o comando *sudo mkdir /var/www/html* pra criar a pasta com permissões de usuário *root* (o usuário 'pai' que comanda o sistema operacional e tem todas as permissões para acessar e modificar arquivos ou pastas), já que o usuário *pi* tem restrições de permissão dentro da pasta */var*).
+	
+		[![Vídeo de como clonar](http://i3.ytimg.com/vi/yGOA5C3trws/hqdefault.jpg)](https://www.youtube.com/watch?v=yGOA5C3trws)
+		[![Vídeo de como executar](http://i3.ytimg.com/vi/8WRNrtoF4dY/hqdefault.jpg)](https://www.youtube.com/watch?v=8WRNrtoF4dY)
+
+- Agora, acho que é uma boa hora pra você conectar seu microfone USB e sua caixa de som USB... nas portas USB. Uma configuração no Rasp será necessária pra que seus periféricos funcionem. Aqui vai mais um videozinho (este é de outro canal, agradecimentos ao MAKE CODE, se inscreve lá também!) pra te ajudar:
+	(Obs.: pode ignorar o passo 2.1, ele tá logando no Rasp via SSH, você provavelmente está acessando 'fisicamente', como mostrei nos meus outros vídeos)
+	
+	[![Vídeo do microfone](http://i3.ytimg.com/vi/_VwIup3qhSg/hqdefault.jpg)](https://www.youtube.com/watch?v=_VwIup3qhSg)
+	
+	- Abaixo, os textos que você deve colar no arquivo */home/pi/.asoundrc* (no vídeo tá diferente, mas não esquenta a cabeça, usa esse aqui) e no */etc/asound.conf* que no vídeo não mostra. Tenha em mente que os números "hw:1,0", "hw0:0" são variáveis, você vê esses números quando executa o *aplay -l* e *arecord -l*, no caso do vídeo, deu 0 ('card'), 1 ('device') pra caixa de som (representado aqui por *speaker* e *playback*) e 1,0 pro microfone (*capture* e *mic*); mas o seu (assim como foi com o nosso, que deu 0,0 e 1,0) pode ser diferente. Enfim, seguem os arquivos:
+	
+		#ARQUIVO /home/pi/.asoundrc
 
 		pcm.dsnooper {
 			type dsnoop
@@ -113,15 +119,13 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 			}
 		}
 		
-	(provavelmente o GitHub tirou as quebras de linha do texto, então tecle "Enter" pra quebrar as linhas onde o vídeo mostrar, certo?!)
-	
 - A partir daqui, você já pode configurar o IP estático no seu Rasp (você vai deixar seu Rasp com um IP fixo dentro da sua rede. Não sabe como? vídeo abaixo) e o redirecionamento de portas no seu roteador.
 
 	[![Vídeo de IP estático](http://i3.ytimg.com/vi/lviB8Ip0jBk/hqdefault.jpg)](https://www.youtube.com/watch?v=lviB8Ip0jBk)
 	
-- E então, a criação de um "endereço textual" (uma URL mesmo) pro seu Rasp, e a instalação do serviço DuckDNS na sua plaquinha. Veja:
+- E então, a criação de um "endereço textual" (uma URL mesmo) pro seu Rasp, e a instalação do serviço Duck DNS na sua plaquinha. Veja:
 
-	-VIDEO DUCKDNS (ainda n existe mas ja tem roteiro)
+	[![Vídeo do Duck DNS](http://i3.ytimg.com/vi/Cl3XOMZQizQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Cl3XOMZQizQ)
 	
 - Neste ponto, você já pode instalar meu aplicativozinho configurador no seu smartphone Android, que você baixa no nosso outro repositório (https://github.com/Projeto-HEiMDaLL/heimdall-app). Mais um vídeo aqui, esse tá explicando como se utiliza o app, se liga:
 	
@@ -136,3 +140,9 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 		(cole as três linhas de uma vez, taokei?)
 	
 	- Se tu fez tudo certinho, o Terminal vai te responder com um link. Copia ele pro navegador, que vai te levar até uma página do Google. Nela, você só diz que autoriza o uso da chave e blábláblá, em seguida, ela vai te mandar um código cheio de letra e número. Só copia ele e cola no Terminal onde você tá executando o comando acima. Shazam.
+
+- Para finalmente testar seu novo assistente, execute isso aqui no Terminal (o id do projeto e dispositivo você criou lá no Google Actions Console quando tava configurando o aplicativo, então é só você ir lá, pelo link <https://console.actions.google.com/u/0/?pli=1> e recuperar esses dados:
+
+		googlesamples-assistant-pushtotalk --project-id (COLE AQUI O ID DO SEU PROJETO) --device-model-id (ID DO SEU DISPOSITIVO)
+	
+	Agora só mandar um oi pra ele! Divirta-se!
