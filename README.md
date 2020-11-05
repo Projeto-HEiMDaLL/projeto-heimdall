@@ -81,48 +81,48 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	
 		#ARQUIVO /home/pi/.asoundrc
 
-		pcm.dsnooper {
-			type dsnoop
-			ipc_key B16357492
-			ipc_key_add_uid 0
-			ipc_perm 0666
-			slave {
-				pcm "hw:1,0"
-				channels 1
-			}
-		}
-
-		pcm.!default {
-			type asym
-			playback.pcm {
-				type plug
-				slave.pcm "hw:0,0"
-			}
-			capture.pcm {
-				type plug
-				slave.pcm "dsnooper"
-			}
-		}
-
+		pcm.dsnooper {<br />
+			type dsnoop<br />
+			ipc_key B16357492<br />
+			ipc_key_add_uid 0<br />
+			ipc_perm 0666<br />
+			slave {<br />
+				pcm "hw:1,0"<br />
+				channels 1<br />
+			}<br />
+		}<br />
+		<br />
+		pcm.!default {<br />
+			type asym<br />
+			playback.pcm {<br />
+				type plug<br />
+				slave.pcm "hw:0,0"<br />
+			}<br />
+			capture.pcm {<br />
+				type plug<br />
+				slave.pcm "dsnooper"<br />
+			}<br />
+		}<br />
+		
 		#ARQUIVO /home/pi/.asound.rc
 
-		pcm.!default {
-			type asym
-			capture.pcm "mic"
-			playback.pcm "speaker"
-		}
-		pcm.mic {
-			type plug
-			slave{
-				pcm"hw:1,0"
-			}
-		}
-		pcm.speaker{
-			type plug
-			slave{
-				pcm"hw:0,0"
-			}
-		}
+		pcm.!default {<br />
+			type asym<br />
+			capture.pcm "mic"<br />
+			playback.pcm "speaker"<br />
+		}<br />
+		pcm.mic {<br />
+			type plug<br />
+			slave{<br />
+				pcm"hw:1,0"<br />
+			}<br />
+		}<br />
+		pcm.speaker{<br />
+			type plug<br />
+			slave{<br />
+				pcm"hw:0,0"<br />
+			}<br />
+		}<br />
 		
 - A partir daqui, você já pode configurar o IP estático no seu Rasp (você vai deixar seu Rasp com um IP fixo dentro da sua rede. Não sabe como? vídeo abaixo) e o redirecionamento de portas no seu roteador.
 
