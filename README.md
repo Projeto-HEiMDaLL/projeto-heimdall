@@ -43,8 +43,8 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	- um emissor infravermelho (duas pernas)
 	- um receptor/sensor infravermelho (três pernas)
 	- dez jumpers, sendo 4 macho/macho e seis fêmea/macho
-	- duas resistências, uma de 10K 5.0% Ohms e outra de 27 Ohms 5.0%.
-	- um transistor npn de ...
+	- duas resistências, uma de 10K 5.0% Ohms e outra de 27 Ohms 5.0%
+	- um transistor npn de 2222A
 
 	E aí, é só seguir o esquema e colocar tudo certinho no protoboard. Não ligue os jumpers do board ao Raspberry ainda, deixe para fazer isso depois dos próximos passos.
 	
