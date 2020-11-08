@@ -134,7 +134,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	
 - Neste ponto, você já pode instalar meu aplicativozinho configurador no seu smartphone Android, que você baixa no nosso outro repositório (https://github.com/Projeto-HEiMDaLL/heimdall-app). Mais um vídeo aqui, esse tá explicando como se utiliza o app, se liga:
 	
-	-VIDEO DO APP (eu tenho que fazer)
+	[![Vídeo do App](http://i3.ytimg.com/vi/WZ8dNzZcbyQ/hqdefault.jpg)](https://www.youtube.com/watch?v=WZ8dNzZcbyQ)
 	
 - Bom, depois de subir sua chave, o aplicativo vai te mostrar o nome do arquivo recebido e te informar que você deve continuar a configurar o Google Assistant em mim, executando mais um script no nosso querido Terminal (caso não lembre como, ali em cima tem o vídeo hehe). O nome do script da vez é *instalador_assistant.sh*. Assim que o script informar que a configuração deu certo, você vai executar este comando aqui:
 
