@@ -68,7 +68,7 @@ Agora, sem mais enrolações, aqui vai a 'pequena' lista do que você vai precis
 	
 	(Uma pequena observação: muito provavelmente a pasta /var/www/html ainda não exista quando você assistir esse vídeo. Por isso, crie-a assim: abra o Terminal - o primeiro vídeo mostra como fazer isso logo no início, confere lá; você estará logado como o usuário *pi@raspberrypi*. Digite o comando *sudo mkdir /var/www/html* pra criar a pasta com permissões de usuário *root* (o usuário 'pai' que comanda o sistema operacional e tem todas as permissões para acessar e modificar arquivos ou pastas), já que o usuário *pi* tem restrições de permissão dentro da pasta */var*).
 	
-	[![Vídeo de como clonar](http://i3.ytimg.com/vi/yGOA5C3trws/hqdefault.jpg)](https://www.youtube.com/watch?v=yGOA5C3trws)
+	[![Vídeo de como clonar](http://i3.ytimg.com/vi/y0nmYxILeE0/hqdefault.jpg)](https://www.youtube.com/watch?v=y0nmYxILeE0)
 
 	[![Vídeo de como executar](http://i3.ytimg.com/vi/8WRNrtoF4dY/hqdefault.jpg)](https://www.youtube.com/watch?v=8WRNrtoF4dY)
 
