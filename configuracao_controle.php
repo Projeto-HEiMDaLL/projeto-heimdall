@@ -28,11 +28,13 @@
 </head>
 <body>
 
-  <?php
-    $output = shell_exec('irsend list "" ""');
+  <div id="controllers" style="display: none;">
+      <?php
+          $output = shell_exec('irsend list "" ""');
 
-    $controllers = preg_split('/\s+/', trim($output));
-  ?>
+          $controllers = preg_split('/\s+/', trim($output));
+      ?>
+  </div>
 
   <form action="#" method="post">
 
@@ -52,14 +54,7 @@
     <!-- <br> -->
     <p>Selecione o nome do arquivo de configuração de seu controle (ex: philips)</p>
     
-    <select name="config">
-      <option value="">Selecione um controle</option>
-      <?php
-        foreach ($controllers as $controller) {
-          echo "<option value='".$controller."'>".$controller."</option>";
-        }
-      ?>
-    </select><br>
+    <input type="text" id="controller_name" name="config" placeholder="Selecione um controle"/><br>
     <!-- <br> -->
     <p>Escolha um comando do controle remoto (ex: Liga/Desliga)</p>
     <!-- <br> -->
@@ -172,5 +167,18 @@
     <input id="enviar" type="submit" value="Enviar">
     <input id="limpar" type="reset" value="Limpar escolhas">
   </form>
+
+  <script>
+    $(function() {
+      
+      var element = document.getElementById("controllers");
+      var controllers = element.textContent;
+
+      $("#controller_name" ).autocomplete({
+          source: controllers
+      });
+    });
+  </script>
+
 </body>
 </html>
